@@ -1,6 +1,8 @@
 #include<stdio.h>
-void add(int n)
+int main()
 {
+    int n;
+    scanf("%d",&n);
     if(n%9==0)
     {
         printf("%d",n);
@@ -9,10 +11,4 @@ void add(int n)
     {
         printf("%d",n%9);
     }
-}
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    add(n);
 }
